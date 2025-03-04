@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.js", // Your entry point file
-      "use": "@vercel/node" // Specifies the Node.js runtime
+      "src": "index.js", 
+      "use": "@vercel/node" 
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.js" // Route all requests to your index.js file
+      "dest": "index.js" 
     }
   ]
 }
