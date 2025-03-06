@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/news';
+const API_URL = import.meta.env.VITE_SERVER_URL;
 
 // Fetch all news
 export const fetchNewsAPI = async () => {
